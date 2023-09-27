@@ -7,13 +7,8 @@ const usePageTracking = () => {
   const [initialized, setInitialized] = useState(false);
 
   useEffect(() => {
-    if (
-      !window.location.href.includes('localhost') &&
-      process.env.REACT_APP_MEASUREMENT_ID
-    ) {
-      ReactGA.initialize(process.env.REACT_APP_MEASUREMENT_ID);
-      setInitialized(true);
-    }
+    ReactGA.initialize("G-2P328MNSEJ"); // change your tracking ID
+    setInitialized(true);
   }, []);
 
   useEffect(() => {

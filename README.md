@@ -1,6 +1,6 @@
 # Noel VS Code Resume
 
-![Noel VS Code Resume Screenshot](screenshot.png)
+This is the personal website of Noel Pereira, graduate student in the EECS department at UC Merced.
 
 ## Installation
 
@@ -29,3 +29,7 @@
 - Responsive web design
 - Google Analytics supported
 - Auto-deploy to gh-pages with GitHub Actions ready
+
+## Contact
+
+Noel Pereira -> npereira4@ucmerced.edu

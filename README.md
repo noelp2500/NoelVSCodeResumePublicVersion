@@ -27,8 +27,6 @@ This is the personal website of Noel Pereira, graduate student in the EECS depar
 - Closable tabs
 - Collapsible explorer
 - Responsive web design
-- Google Analytics supported
-- Auto-deploy to gh-pages with GitHub Actions ready
 
 ## Contact
 

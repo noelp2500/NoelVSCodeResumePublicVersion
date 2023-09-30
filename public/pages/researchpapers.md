@@ -13,9 +13,9 @@
 
 &nbsp;
 
-## `Nov 21, 2022` PDLW-Net: Novel Object Detection Variant of Vision Transformers in the Localization of Periodontal Ligament Widening
+## `Nov 21, 2022` [PDLW-Net: Novel Object Detection Variant of Vision Transformers in the Localization of Periodontal Ligament Widening](https://link.springer.com/chapter/10.1007/978-981-99-1431-9_41)
 
-**Publication:** Due to be published in Springer book series ’Algorithms for Intelligent Systems’
+**Publication:** Published in Springer book series ’Artificial Intelligence and Sustainable Computing'
 
 **Conference:** Springer - 4th International Conference on Sustainable and Innovative Solutions for Current Challenges in Engineering & Technology (ICSISCET 2022)
 

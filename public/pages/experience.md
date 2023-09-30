@@ -1,5 +1,10 @@
 # 👨‍💻 Work Experience
 
+## `Aug 2023 - Present` **Graduate Teaching Assistant** @ UC Merced
+
+• Primary instructor teaching the lab CSE-005 "Introduction to Computer Application".
+
+&nbsp;
 ## `Aug 2021 - Aug 2023` **NLP & Software Development Engineer** @ [HaiX AI](https://haix.ai/)
 
 ### Link to the app - [HaiX Alivecore](https://haix.app)

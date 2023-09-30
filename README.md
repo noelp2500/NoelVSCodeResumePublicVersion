@@ -1,12 +1,13 @@
 # Noel VS Code Resume
 
 This is the personal website of Noel Pereira, graduate student in the EECS department at UC Merced.
+This template is hereby classified as public and can be used by anyone who chooses to do so!
 
 ## Installation
 
 1. Clone the repository
    ```sh
-   git clone https://github.com/your-username/noel-vscode-resume.git
+   git clone https://github.com/noelp2500/NoelVSCodeResumePublicVersion.git
    ```
 2. Install NPM packages
    ```sh
@@ -31,3 +32,4 @@ This is the personal website of Noel Pereira, graduate student in the EECS depar
 ## Contact
 
 Noel Pereira -> npereira4@ucmerced.edu
+

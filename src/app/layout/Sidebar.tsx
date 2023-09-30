@@ -75,7 +75,7 @@ export default function Sidebar({
         <Tooltip title="Source of this project" arrow placement="right">
           <Link
             target="_blank"
-            href={"https://github.com/noelp2500"}
+            href={"https://github.com/noelp2500/NoelVSCodeResumePublicVersion"}
             underline="none"
             color="inherit"
             sx={{ WebkitTapHighlightColor: "rgba(0,0,0,0)" }}

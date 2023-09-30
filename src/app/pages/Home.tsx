@@ -51,12 +51,11 @@ export default function Home({ setSelectedIndex }: Props) {
               display="flex"
               justifyContent={{ xs: "center", sm: "flex-start" }}
             >
-              <>
-              <Typography variant="subtitle1" gutterBottom>
-                Graduate Student in the EECS Department of University of California, Merced majoring in Computer Software Engineering
+              <Typography variant="subtitle1">
+                University of California, Merced
               </Typography>
-             </>
             </Grid>
+            
             <Grid
               display="flex"
               justifyContent={{ xs: "center", sm: "flex-start" }}

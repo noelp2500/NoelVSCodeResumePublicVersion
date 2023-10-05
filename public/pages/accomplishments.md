@@ -9,5 +9,5 @@
 - **Top 9 for Project Submission "EventDiva (E-Diva)"** `Samsung NEXT GenAI Hackathon`
   [Top 9](https://drive.google.com/file/d/14fN-BJ7WhmYvFH_gorwM0xWBWJdIuRjJ/view?usp=sharing) at Samsung NEXT GenAI Hackathon 
 
-- **Reseach published in Book** `Springer`
+- **Reseach published in Springer Book "Artificial Intelligence and Sustainable Computing"** `Springer`
  [Research Paper titled "PDLW-Net: Novel Object Detection Variant of Vision Transformers in the Localization of Periodontal Ligament Widening" was published as Chapter 41 in the Springer book titled "Artificial Intelligence and Sustainable Computing"](https://link.springer.com/chapter/10.1007/978-981-99-1431-9_41) 

@@ -1,6 +1,6 @@
 # 🧪 Personal Projects
 
-## chatApp `Will be uploaded on GitHub and Google Play Store shortly!`
+## [chatApp](https://github.com/noelp2500/chatApp) `Will be uploaded on Google Play Store shortly!`
 
 - Allows users to login, chat with other individuals, make chat groups with multiple users and receive push notifications.
   - _**Tools -**_ React Native, Javascript, CSS, HTML, Firebase.

@@ -1,6 +1,6 @@
 # 🧪 Personal Projects
 
-## [chatApp](https://github.com/noelp2500/chatApp) `Will be uploaded on Google Play Store shortly!`
+## [chatApp](https://github.com/noelp2500/chatApp) 🔗 `Will be uploaded on Google Play Store shortly!`
 
 - Allows users to login, chat with other individuals, make chat groups with multiple users and receive push notifications.
   - _**Tools -**_ React Native, Javascript, CSS, HTML, Firebase.
@@ -16,7 +16,7 @@
 - A VSCode inspired UI Resume with all my updated details.
   - _**Tools -**_ React JS, JavaScript, TypeScript, HTML, CSS.
 
-## Noel Pereira Three JS Airplane Resume Idea `Will be uploaded on GitHub shortly!`
+## [Noel Pereira Three JS Airplane Resume Idea](https://github.com/noelp2500/Noel3DPlaneResumeIdea) 🔗 `Will be added as a part of this resume shortly!`
 
 - A React JS Resume Idea where the mouse controlled airplane traverses a path as it displays relevant information (in this case, me)
   - _**Tools -**_ React JS, React Three Fiber, JavaScript, HTML, CSS.

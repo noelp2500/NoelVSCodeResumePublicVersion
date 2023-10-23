@@ -4,6 +4,8 @@ import App from "./app/layout/App";
 import reportWebVitals from "./reportWebVitals";
 // import { BrowserRouter } from 'react-router-dom';
 import { HashRouter } from "react-router-dom";
+import "./Index.css"
+import VSCodeChatbot from "./chatbot/main";
 
 const root = ReactDOM.createRoot(
   document.getElementById("root") as HTMLElement
@@ -12,7 +14,12 @@ const root = ReactDOM.createRoot(
 root.render(
   <React.StrictMode>
     <HashRouter>
-      <App />
+      <div className="app-container">
+        <App />
+        {/* <div className="overlay-component">
+          <VSCodeChatbot></VSCodeChatbot>
+        </div> */}
+      </div>
     </HashRouter>
   </React.StrictMode>
 );

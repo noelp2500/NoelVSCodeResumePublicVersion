@@ -19,7 +19,6 @@ import Home from "../pages/Home";
 import { pages } from "../pages/pages";
 import usePageTracking from "../hooks/usePageTracking";
 import { isBrowser } from "react-device-detect";
-
 interface Page {
   index: number;
   name: string;
@@ -187,15 +186,16 @@ export default function App() {
                   setVisiblePageIndexs={setVisiblePageIndexs}
                 />
               </Grid>
-
+              
               <Grid
                 sx={{
                   scrollBehavior: "smooth",
                   // overflow: 'scroll',
                   overflowY: "auto",
                   height: `calc(100vh - 20px - 33px)`,
+                  position: "relative"
                 }}
-              >
+              > 
                 <Routes>
                   <Route
                     path="/"

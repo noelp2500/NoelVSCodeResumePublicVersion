@@ -1,5 +1,11 @@
 # 🧪 Personal Projects
 
+## [AvidE2EVideoApp](https://github.com/noelp2500/AvidE2EVideoApp.git) 🔗
+
+- Allows users to make video calls to each other, setup group video calls, chat with users in the call & share your screen
+- Demo video - https://drive.google.com/file/d/1hAQu0mJeOnST2zqtZSt3bPou3QzyhlIk/view?usp=share_link
+  - _**Tools -**_ React, Javascript, CSS, HTML, webRTC, SocketIO, PeerJS.
+
 ## [chatApp](https://github.com/noelp2500/chatApp) 🔗 `Will be uploaded on Google Play Store shortly!`
 
 - Allows users to login, chat with other individuals, make chat groups with multiple users and receive push notifications.

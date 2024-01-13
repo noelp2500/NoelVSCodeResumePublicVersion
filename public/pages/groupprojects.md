@@ -28,3 +28,21 @@ Ofcourse, the idea itself is not fully fleshed out, but is available for further
 - Idea accepted and demo presented at Samsung NEXT Hackathon hosted on September 22nd and September 23rd, 2023
 - Selected as finalists (Top 9 out of 250 teams) and was presented to 200+ people including VCs/Angel Investors from several big firms including Samsung and Google.
 <!-- - Project Files including a video and presentation can be found [HERE](https://drive.google.com/file/d/1OmfVFW7-6WTARVQmAvN5CzSBgncULtGo/view). -->
+
+
+## LeadingYouToA100 `Work by Noel Pereira, Divija Naredla, Sanjeeb Dey`
+
+LeadingYouToA100, as the name shows, is your tool to "Lead you to a 100 years". Instead of traditional health apps which besieges you with a bundle of charts giving you the metrics without any further information, we decided to rethink this by creating your experience in the form of a chatbot which when asked questions like "What's my heart rate like, for the past 14 days" will give you a chart with your heart rate for 14 days, but also provides you AI based insights on how to improve upon it (if necessary). 
+
+The key features include - 
+- Sync data from healthwatches (Apple Watch) and manually through the upload of PDFs
+- Chatbot like UI generating and presenting data based on user query
+- AI based insights on how to improve on metric
+- Provides further insights by providing exercises and diet suggestions
+- State of the art recipe generator based on the ingredients in your fridge while keeping in mind the health information provided by you
+
+- _**Tools Used Currently -**_ React Native, Javascript, CSS, HTML, Python, Flask, Supabase, Palm API .
+
+#### _Additional details_
+
+- Idea accepted and demo presented at Microsoft Reactor TedAI Hackathon hosted on October 14th and October 15th, 2023 in San Francisco.

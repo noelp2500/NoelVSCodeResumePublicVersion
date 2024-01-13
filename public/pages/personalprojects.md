@@ -1,5 +1,11 @@
 # 🧪 Personal Projects
 
+## [Untangled Code Editor](https://github.com/noelp2500/Untangled_CodeEditor.git) 🔗
+
+- Allows users to test code and get the time and memory space occupied.
+- Added "Get AI Help" button which corrects the code you have written with comments.
+  - _**Tools -**_ React, Javascript, Tailwind CSS, HTML.
+
 ## [AvidE2EVideoApp](https://github.com/noelp2500/AvidE2EVideoApp.git) 🔗
 
 - Allows users to make video calls to each other, setup group video calls, chat with users in the call & share your screen

@@ -1,6 +1,6 @@
 # 👨‍💻 Work Experience
 
-## `Aug 2023 - Present` **Graduate Teaching Assistant** @ UC Merced
+## `Aug 2023 - Dec 2023` **Graduate Teaching Assistant** @ UC Merced
 
 • Primary instructor teaching the lab CSE-005 "Introduction to Computer Application".
 

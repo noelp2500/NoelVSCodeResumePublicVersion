@@ -10,6 +10,7 @@
 
 - Python
 - React.js
+- React Native
 - JavaScript
 - SQL
 - Bash Scripting

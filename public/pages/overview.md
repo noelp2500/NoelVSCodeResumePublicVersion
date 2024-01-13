@@ -7,9 +7,17 @@ A self directed and driven technology professional with comprehensive accomplish
 I'm keenly interested in developing and growing real time and scalable processes to make highly optimized software and data accessible across organizations, especially for technical and non-technical stakeholders.
 
 My core skills include -
-Python (NumPy, Scikit-learn, Pandas, SciPy, Keras, TensorFlow, Pytorch, Matplotlib, Seaborn, Plotly, ggplot) | SQL (MySQL) | Big Data Tools (Hadoop, Apache Spark, KNIME, MongoDB) | AWS | Front End Web Development Tools (HTML, CSS, JavaScript, Bootstrap, React.js, Node.js, Express.js)
+    - Python (Flask, FastAPI, Django, Matplotlib, Seaborn, Plotly, ggplot)
+    - Data Science/ML/Deep Learning (NumPy, Scikit-learn, Pandas, SciPy, Keras, TensorFlow, Pytorch)
+    - Front End Web Development Tools (React.js, Node.js, React Native, HTML, CSS, JavaScript, Bootstrap)
+    - SQL (MySQL)
+    - Big Data Tools (Hadoop, Apache Spark, KNIME, MongoDB) 
+    - AWS 
+    
 
-I’m currently pursuing a Masters degree in Computer Software Engineering in the EECS department at University of California, Merced.
+I’m currently pursuing a Masters degree in Computer Software Engineering in the EECS department at University of California, Merced. 
+
+I'm also working on Federated Learning under Prof. Xiaoyi Lu at PADSYS Lab.
 
 In my free time, you'll catch me writing chicken scratch poems, practicing brazilian jui jitsu (white belt) and working out.
 
@@ -23,3 +31,5 @@ Leetcode - https://leetcode.com/noelpereira2500/
 HackerRank - https://www.hackerrank.com/iamnoelpereira
 
 Feel free to reach out if you're looking to collaborate on research, projects, business ideas, or just to hang out for coffee and talk about my poems and martial arts!
+
+** I'm currently looking for interships for Summer'24. Feel free to reach out if there are any such opportunities available! **

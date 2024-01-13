@@ -6,6 +6,9 @@
 - Relevant Courses:
   - Advanced Human Computer Interaction
   - Computer Architecture
+  - Cloud Computing
+  - Advanced Distributed Systems
+  - Reinforcement Learning (auditing)
 
 &nbsp;
 

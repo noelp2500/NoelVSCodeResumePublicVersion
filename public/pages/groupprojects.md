@@ -41,6 +41,8 @@ The key features include -
 - Provides further insights by providing exercises and diet suggestions
 - State of the art recipe generator based on the ingredients in your fridge while keeping in mind the health information provided by you
 
+Ultimately, our app empowers individuals by turning health data into actionable steps that drive positive health outcomes. By combining healthcare insights with practical culinary guidance and tips, we are contributing to a healthier, more sustainable world through collaborative, data-driven innovation.
+
 - _**Tools Used Currently -**_ React Native, Javascript, CSS, HTML, Python, Flask, Supabase, Palm API .
 
 #### _Additional details_

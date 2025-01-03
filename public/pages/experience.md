@@ -1,10 +1,28 @@
 # 👨‍💻 Work Experience
 
+## `Sept 2024 - Dec 2024` **MLOps Cybersecurity Fall Intern** @ Siemens
+
+• Mentor- Dr.Anton Kocheturov
+• Implemented a SOTA Discrete action space based bayesian optimised agent for cage4 challenge in a single and multiagent environment
+• Developed a heirarchial discrete space bayesian optimised agent for cage2 challenge with a decision tree based action picker
+
+## `May 2024 - Aug 2024` **MLOps Cybersecurity Summer Intern** @ Siemens
+
+• Mentor- Dr.Anton Kocheturov
+• Implemented and deployed a suite of APIs (Uvicorn) for RL agents, IT/OT networks, and custom environments developed by Siemens and other 3rd parties.
+• Built an end-to-end MLOps pipeline on Siemens’ instance of Gitlab involving dockerization, unit testing, regression testing, linting, codestyle testing and live ssh deployment of the APIs on a self hosted VMware ESXi server cluster.
+• Developed a custom workflow atop a React JS based visualization tool for real-time, step-by-step visualization of Cyborg Red Agents on the Cage2 challenge network topology, including API calls for agent actions, network node status updates, and UI element adjustments.
+• Assisted in preparing monthly technical progress reports for submission to the Defense Advanced Research Projects Agency (DARPA), detailing my project contributions, and participated in DARPA site visits.
+• Implemented and deployed couple of Multi Agent Reinforcement Learning (MARL) agents on Cage4 challenge for baseline evaluation of optimisation techniques
+
+&nbsp;
+
 ## `Aug 2023 - Dec 2023` **Graduate Teaching Assistant** @ UC Merced
 
 • Primary instructor teaching the lab CSE-005 "Introduction to Computer Application".
 
 &nbsp;
+
 ## `Aug 2021 - Aug 2023` **NLP & Software Development Engineer** @ [HaiX AI](https://haix.ai/)
 
 ### Link to the app - [HaiX Alivecore](https://haix.app)

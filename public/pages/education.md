@@ -8,7 +8,9 @@
   - Computer Architecture
   - Cloud Computing
   - Advanced Distributed Systems
-  - Reinforcement Learning (auditing)
+  - Reinforcement Learning (audited)
+  - Advanced Algorithmic Design
+  - Compiler Construction
 
 &nbsp;
 

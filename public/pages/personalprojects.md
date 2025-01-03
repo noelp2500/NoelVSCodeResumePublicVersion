@@ -1,5 +1,13 @@
 # 🧪 Personal Projects
 
+## [Knight Programming Language](https://github.com/noelp2500/Knight-Programming-Language.git)
+
+- C based statically typed and JIT compiled programming language built with LLVM IR Backend
+- Frontend components including Lexer, Parser, AST and compiler baseline built from scratch
+- Added in normal C style programming and "Knight" based old english lingo
+- General functionality includes - Mutable and constant variables, Arithmetic Operators, If Else statements, While/For loops and, Built in functions and User Defined Functions
+  - _**Tools -**_ Python, LLVM IR llvmlite.
+
 ## [Untangled Code Editor](https://github.com/noelp2500/Untangled_CodeEditor.git) 🔗
 
 - Allows users to test code and get the time and memory space occupied.
@@ -17,12 +25,6 @@
 - Allows users to login, chat with other individuals, make chat groups with multiple users and receive push notifications.
   - _**Tools -**_ React Native, Javascript, CSS, HTML, Firebase.
 
-## [JSON to Excel Utility](https://github.com/noelp2500/JSON-To-Excel) 🔗
-
-- Utility to convert a JSON response to an Excel File
-- It ingests an input array (list) for headers and data organized as an array of dictionaries, ultimately yielding a formatted, downloadable Excel file.
-  - _**Tools -**_ React JS, JavaScript.
-
 ## [Noel Pereira VSCode Resume](https://github.com/noelp2500/Noel-Pereira-VS-Code-Resume) 🔗
 
 - A VSCode inspired UI Resume with all my updated details.
@@ -32,6 +34,12 @@
 
 - A React JS Resume Idea where the mouse controlled airplane traverses a path as it displays relevant information (in this case, me)
   - _**Tools -**_ React JS, React Three Fiber, JavaScript, HTML, CSS.
+
+## [JSON to Excel Utility](https://github.com/noelp2500/JSON-To-Excel) 🔗
+
+- Utility to convert a JSON response to an Excel File
+- It ingests an input array (list) for headers and data organized as an array of dictionaries, ultimately yielding a formatted, downloadable Excel file.
+  - _**Tools -**_ React JS, JavaScript.
 
 ## Multiplicative Market Mix Model `Will be uploaded on GitHub shortly!`
 

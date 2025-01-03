@@ -6,7 +6,7 @@ import {
   FaEnvelope,
   FaWhatsapp,
   FaRegEnvelopeOpen,
-  FaRegFileAlt
+  FaRegFileAlt,
 } from "react-icons/fa";
 
 export const links = [
@@ -41,9 +41,9 @@ export const links = [
     icon: <FaWhatsapp />,
   },
   {
-    index:5,
+    index: 5,
     title: "Link to my Resume",
-    href:"https://drive.google.com/file/d/1qK8ZgvYnlklPfa0hAy0q8vpcu-ENZauA/view?usp=sharing",
-    icon:<FaRegFileAlt/>
-  }
+    href: "https://drive.google.com/file/d/1ZDWxtnT4xz4vtRDlLeqQKpkwdRClxgy2/view?usp=sharing",
+    icon: <FaRegFileAlt />,
+  },
 ];

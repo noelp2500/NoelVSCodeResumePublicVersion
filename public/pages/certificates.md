@@ -1,5 +1,9 @@
 # 🥇 Certificates
 
+- [Cybersecurity: Mapping MITRE ATT&CK to CVE for Impact](https://www.credly.com/earner/earned/badge/d0a0dee5-9908-42c1-95ce-f5050b7ba5c4)`AttackIQ`
+
+- [Fundamentals of Reinforcement Learning](https://coursera.org/share/3ea0065465f3e9a9aa4898c9b9bfb18a)`University of Alberta`
+
 - [Presentation Certificate - 2022 IEEE World Conference on Applied Intelligence and Computing (AIC’22)](https://drive.google.com/file/d/1OmfVFW7-6WTARVQmAvN5CzSBgncULtGo/view) `Rajkiya Engineering College Sonbhadra`
 
 - [REST APIs with Flask and Python](https://www.udemy.com/certificate/UC-ae2c0eb9-513d-4863-b680-2c48e29875f9/) `Teclado Limited`

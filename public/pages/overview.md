@@ -6,16 +6,9 @@ A self directed and driven technology professional with comprehensive accomplish
 
 I'm keenly interested in developing and growing real time and scalable processes to make highly optimized software and data accessible across organizations, especially for technical and non-technical stakeholders.
 
-My core skills include -
-    - Python (Flask, FastAPI, Django, Matplotlib, Seaborn, Plotly, ggplot)
-    - Data Science/ML/Deep Learning (NumPy, Scikit-learn, Pandas, SciPy, Keras, TensorFlow, Pytorch)
-    - Front End Web Development Tools (React.js, Node.js, React Native, HTML, CSS, JavaScript, Bootstrap)
-    - SQL (MySQL)
-    - Big Data Tools (Hadoop, Apache Spark, KNIME, MongoDB) 
-    - AWS 
-    
+My core skills include - - Python (Flask, FastAPI, Django, Matplotlib, Seaborn, Plotly, ggplot) - Data Science/ML/Deep Learning (NumPy, Scikit-learn, Pandas, SciPy, Keras, TensorFlow, Pytorch) - Front End Web Development Tools (React.js, Node.js, React Native, HTML, CSS, JavaScript, Bootstrap) - SQL (MySQL) - Big Data Tools (Hadoop, Apache Spark, KNIME, MongoDB) - AWS
 
-I’m currently pursuing a Masters degree in Computer Software Engineering in the EECS department at University of California, Merced. 
+I’m currently pursuing a Masters degree in Computer Software Engineering in the EECS department at University of California, Merced and interning as a MLOps cybersecurity Intern at Siemens (Princeton, NJ, USA).
 
 I'm also working on Federated Learning under Prof. Xiaoyi Lu at PADSYS Lab.
 
@@ -32,4 +25,4 @@ HackerRank - https://www.hackerrank.com/iamnoelpereira
 
 Feel free to reach out if you're looking to collaborate on research, projects, business ideas, or just to hang out for coffee and talk about my poems and martial arts!
 
-** I'm currently looking for interships for Summer'24. Feel free to reach out if there are any such opportunities available! **
+** I'm currently looking for interships/full time roles from Summer 2025. Feel free to reach out if there are any such opportunities available! **

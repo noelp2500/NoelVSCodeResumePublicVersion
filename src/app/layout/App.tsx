@@ -19,6 +19,14 @@ import Home from "../pages/Home";
 import { pages } from "../pages/pages";
 import usePageTracking from "../hooks/usePageTracking";
 import { isBrowser } from "react-device-detect";
+import {
+  explorerPalettes,
+  explorerPanelSx,
+  explorerTitleSx,
+} from "../constants/explorer";
+import { TAB_BAR_HEIGHT, tabPalettes } from "../constants/tabs";
+import { ACTIVITY_BAR_WIDTH } from "../constants/sidebar";
+import { STATUS_BAR_HEIGHT } from "../constants/footer";
 interface Page {
   index: number;
   name: string;
@@ -53,7 +61,7 @@ export default function App() {
     palette: {
       mode: paletteType,
       background: {
-        default: paletteType === "light" ? "#FFFFFF" : "#1e1e1e",
+        default: tabPalettes[paletteType].editorBackground,
       },
     },
     components: {
@@ -131,7 +139,7 @@ export default function App() {
       >
         <Grid container sx={{ overflow: "auto", overflowY: "hidden" }}>
           <Grid container sx={{ overflow: "auto" }}>
-            <Grid item sx={{ width: 50 }}>
+            <Grid item sx={{ width: ACTIVITY_BAR_WIDTH }}>
               <Sidebar
                 setExpanded={setExpanded}
                 expanded={expanded}
@@ -141,18 +149,11 @@ export default function App() {
               />
             </Grid>
             {expanded && (
-              <Grid
-                item
-                sx={{
-                  backgroundColor: darkMode ? "#252527" : "#f3f3f3",
-                  width: 220,
-                }}
-              >
-                <Stack sx={{ mt: 1 }}>
+              <Grid item sx={explorerPanelSx(explorerPalettes[paletteType])}>
+                <Stack>
                   <Typography
                     variant="caption"
-                    color="text.secondary"
-                    sx={{ ml: 4 }}
+                    sx={explorerTitleSx(explorerPalettes[paletteType])}
                   >
                     EXPLORER
                   </Typography>
@@ -172,11 +173,10 @@ export default function App() {
             <Grid item xs zeroMinWidth>
               <Grid
                 sx={{
-                  height: "33px",
+                  height: TAB_BAR_HEIGHT,
                 }}
               >
                 <AppButtons
-                  // pages={pages}
                   pages={visiblePages}
                   selectedIndex={selectedIndex}
                   setSelectedIndex={setSelectedIndex}
@@ -190,16 +190,21 @@ export default function App() {
               <Grid
                 sx={{
                   scrollBehavior: "smooth",
-                  // overflow: 'scroll',
                   overflowY: "auto",
-                  height: `calc(100vh - 20px - 33px)`,
+                  height: `calc(100vh - ${STATUS_BAR_HEIGHT}px - ${TAB_BAR_HEIGHT}px)`,
                   position: "relative"
                 }}
               > 
                 <Routes>
                   <Route
                     path="/"
-                    element={<Home setSelectedIndex={setSelectedIndex} />}
+                    element={
+                      <Home
+                        setSelectedIndex={setSelectedIndex}
+                        visiblePageIndexs={visiblePageIndexs}
+                        setVisiblePageIndexs={setVisiblePageIndexs}
+                      />
+                    }
                   />
                   {pages.map(({ index, name, route }) => (
                     <Route
@@ -222,7 +227,6 @@ export default function App() {
           </Grid>
         </Grid>
       </Container>
-      {/* </Router> */}
     </ThemeProvider>
   );
 }

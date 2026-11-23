@@ -1,12 +1,24 @@
 import * as React from "react";
 import TreeView from "@mui/lab/TreeView";
-import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
-import ChevronRightIcon from "@mui/icons-material/ChevronRight";
 import TreeItem from "@mui/lab/TreeItem";
 import { useLocation, useNavigate } from "react-router-dom";
 import { useEffect } from "react";
 import { useTheme } from "@mui/material/styles";
-import { VscMarkdown } from "react-icons/vsc";
+import {
+  VscChevronDown,
+  VscChevronRight,
+  VscFolderOpened,
+  VscMarkdown,
+} from "react-icons/vsc";
+import {
+  explorerPalettes,
+  explorerTreeSx,
+  FOLDER_ICON_SIZE,
+  REPO_NAME,
+  REPO_NODE_ID,
+  ROOT_DIR,
+  ROOT_NODE_ID,
+} from "../constants/explorer";
 
 interface Page {
   index: number;
@@ -15,11 +27,7 @@ interface Page {
 }
 
 interface Props {
-  pages: {
-    index: number;
-    name: string;
-    route: string;
-  }[];
+  pages: Page[];
   selectedIndex: number;
   setSelectedIndex: React.Dispatch<React.SetStateAction<number>>;
   currentComponent: string;
@@ -38,11 +46,10 @@ export default function AppTree({
   setVisiblePageIndexs,
 }: Props) {
   const navigate = useNavigate();
-  const theme = useTheme();
-  // const [selectedIndex, setSelectedIndex] = useState(-1);
+  const c = explorerPalettes[useTheme().palette.mode];
   let { pathname } = useLocation();
 
-  const page: Page = pages.find((x) => x.route === pathname)!;
+  const page = pages.find((x) => x.route === pathname);
 
   useEffect(() => {
     if (page) {
@@ -50,65 +57,46 @@ export default function AppTree({
     }
   }, [page, setSelectedIndex]);
 
-  function renderTreeItemBgColor(index: number) {
-    if (theme.palette.mode === "dark") {
-      return selectedIndex === index ? "rgba(144,202,249,0.16)" : "#252527";
-    } else {
-      return selectedIndex === index ? "#295fbf" : "#f3f3f3";
-    }
-  }
-
-  function renderTreeItemColor(index: number) {
-    if (theme.palette.mode === "dark") {
-      return selectedIndex === index && currentComponent === "tree"
-        ? "white"
-        : "#bdc3cf";
-    } else {
-      return selectedIndex === index ? "#e2ffff" : "#69665f";
-    }
-  }
-
   return (
     <TreeView
       aria-label="file system navigator"
-      defaultCollapseIcon={<ExpandMoreIcon />}
-      defaultExpandIcon={<ChevronRightIcon />}
-      sx={{ minWidth: 220 }}
-      defaultExpanded={["-1"]}
+      defaultCollapseIcon={<VscChevronDown />}
+      defaultExpandIcon={<VscChevronRight />}
+      defaultExpanded={[REPO_NODE_ID, ROOT_NODE_ID]}
+      selected={selectedIndex.toString()}
+      sx={explorerTreeSx(c, currentComponent === "tree")}
     >
-      <TreeItem
-        nodeId="-1"
-        label="Home"
-        color="#bdc3cf"
-        onClick={() => {
-          navigate("/");
-          setSelectedIndex(-1);
-        }}
-      >
-        {pages.map(({ index, name, route }) => (
-          <TreeItem
-            key={index}
-            nodeId={index.toString()}
-            label={name}
-            sx={{
-              color: renderTreeItemColor(index),
-              backgroundColor: renderTreeItemBgColor(index),
-              "&& .Mui-selected": {
-                backgroundColor: renderTreeItemBgColor(index),
-              },
-            }}
-            icon={<VscMarkdown color="#6997d5" />}
-            onClick={() => {
-              if (!visiblePageIndexs.includes(index)) {
-                const newIndexs = [...visiblePageIndexs, index];
-                setVisiblePageIndexs(newIndexs);
-              }
-              navigate(route);
-              setSelectedIndex(index);
-              setCurrentComponent("tree");
-            }}
-          />
-        ))}
+      <TreeItem nodeId={REPO_NODE_ID} label={REPO_NAME}>
+        <TreeItem
+          nodeId={ROOT_NODE_ID}
+          label={
+            <>
+              <VscFolderOpened color={c.folderIcon} size={FOLDER_ICON_SIZE} />
+              {ROOT_DIR}
+            </>
+          }
+          onClick={() => {
+            navigate("/");
+            setSelectedIndex(-1);
+          }}
+        >
+          {pages.map(({ index, name, route }) => (
+            <TreeItem
+              key={index}
+              nodeId={index.toString()}
+              label={name}
+              icon={<VscMarkdown color={c.fileIcon} />}
+              onClick={() => {
+                if (!visiblePageIndexs.includes(index)) {
+                  setVisiblePageIndexs([...visiblePageIndexs, index]);
+                }
+                navigate(route);
+                setSelectedIndex(index);
+                setCurrentComponent("tree");
+              }}
+            />
+          ))}
+        </TreeItem>
       </TreeItem>
     </TreeView>
   );

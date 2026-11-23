@@ -43,7 +43,7 @@ export const links = [
   {
     index: 5,
     title: "Link to my Resume",
-    href: "https://drive.google.com/file/d/1ZDWxtnT4xz4vtRDlLeqQKpkwdRClxgy2/view?usp=sharing",
+    href: "https://drive.google.com/file/d/1EKzFFwSyYX4ZCCJbOHVzlAXseJe3-W0c/view?usp=sharing",
     icon: <FaRegFileAlt />,
   },
 ];

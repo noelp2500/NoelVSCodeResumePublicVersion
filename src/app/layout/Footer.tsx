@@ -1,192 +1,52 @@
-import { Box, Grid, Link, Paper, Stack, Typography } from "@mui/material";
+import { Box, Link } from "@mui/material";
+import { useTheme } from "@mui/material/styles";
 import {
   VscRemote,
   VscError,
   VscWarning,
   VscBell,
   VscFeedback,
-  VscCheck,
+  VscCheckAll,
+  VscSourceControl,
 } from "react-icons/vsc";
-import { IoIosGitBranch } from "react-icons/io";
+import { SOURCE_URL } from "../constants/sidebar";
+import {
+  footerItemSx,
+  footerPalettes,
+  footerRemoteSx,
+  footerSx,
+} from "../constants/footer";
 
 export default function Footer() {
+  const c = footerPalettes[useTheme().palette.mode];
+  const item = footerItemSx(c);
+
   return (
-    <Box
-      component={Paper}
-      square
-      elevation={0}
-      // sx={{ height: '3vh' }}
-      sx={{ height: "20px", color: "white" }}
-      display="flex"
-    >
-      <Grid container>
-        <Grid
-          item
-          sx={{
-            width: "35px",
-            backgroundColor: "#2E8461",
-            justifyContent: "center",
-            alignItems: "center",
-            cursor: "pointer",
-            "&:hover": {
-              background: "#329171",
-            },
-          }}
-          display="flex"
-        >
-          <VscRemote fontSize="0.9rem" />
-        </Grid>
-        <Grid
-          item
-          sx={{ backgroundColor: "#3279CB", width: "200px" }}
-          display="flex"
-        >
-          <Stack direction="row" spacing={0.5} sx={{ pl: 1 }}>
-            <Box
-              component={Link}
-              href="https://github.com/noelp2500/NoelVSCodeResumePublicVersion"
-              underline="none"
-              color="white"
-              target="_blank"
-              display="flex"
-              sx={{
-                px: 0.5,
-                justifyContent: "center",
-                alignItems: "center",
-                // cursor: "pointer",
-                "&:hover": {
-                  background: "#1f8ad2",
-                },
-              }}
-            >
-              <IoIosGitBranch fontSize="0.9rem" />
-              <Typography sx={{ ml: 0.5, mt: 0.1, fontSize: "0.6rem" }}>
-                main
-              </Typography>
-            </Box>
-            <Stack
-              direction="row"
-              spacing={0.5}
-              sx={{
-                px: 0.5,
-                cursor: "pointer",
-                "&:hover": {
-                  background: "#1f8ad2",
-                },
-              }}
-            >
-              <Box
-                display="flex"
-                sx={{
-                  justifyContent: "center",
-                  alignItems: "center",
-                  py: 0.3,
-                }}
-              >
-                <VscError fontSize="0.9rem" />
-              </Box>
-              <Box
-                display="flex"
-                sx={{
-                  justifyContent: "center",
-                  alignItems: "center",
-                  pt: 0.3,
-                }}
-              >
-                <Typography sx={{ fontSize: "0.6rem" }}>0</Typography>
-              </Box>
+    <Box sx={footerSx(c)}>
+      <Box display="flex">
+        <Box sx={footerRemoteSx(c)}>
+          <VscRemote />
+        </Box>
+        <Link href={SOURCE_URL} target="_blank" underline="none" sx={item}>
+          <VscSourceControl />
+          main
+        </Link>
+        <Box sx={item}>
+          <VscError /> 0 <VscWarning /> 0
+        </Box>
+      </Box>
 
-              <Box
-                display="flex"
-                sx={{
-                  justifyContent: "center",
-                  alignItems: "center",
-                  py: 0.3,
-                }}
-              >
-                <VscWarning fontSize="0.9rem" />
-              </Box>
-              <Box
-                display="flex"
-                sx={{
-                  justifyContent: "center",
-                  alignItems: "center",
-                  pt: 0.3,
-                }}
-              >
-                <Typography sx={{ fontSize: "0.6rem" }}>0</Typography>
-              </Box>
-            </Stack>
-          </Stack>
-        </Grid>
-        <Grid
-          item
-          // sx={{ backgroundColor: '#3279CB', minWidth: `calc(100% - 35px)` }}
-          sx={{ backgroundColor: "#3279CB", minWidth: `calc(100% - 235px)` }}
-          display="flex"
-          justifyContent="flex-end"
-        >
-          <Box display="flex" justifyContent="flex-end">
-            <Stack
-              // display="flex"
-              justifyContent="end"
-              direction="row"
-              spacing={0.8}
-              sx={{ pr: 1.5 }}
-            >
-              <Box
-                display="flex"
-                sx={{
-                  px: 0.5,
-                  justifyContent: "center",
-                  alignItems: "center",
-                  cursor: "pointer",
-                  "&:hover": {
-                    background: "#1f8ad2",
-                  },
-                }}
-              >
-                <VscCheck fontSize="0.9rem" />
-                <Typography sx={{ ml: 0.5, mt: 0.1, fontSize: "0.6rem" }}>
-                  Prettier
-                </Typography>
-              </Box>
-
-              <Box
-                display="flex"
-                sx={{
-                  justifyContent: "center",
-                  alignItems: "center",
-                  py: 0.3,
-                  px: 0.5,
-                  cursor: "pointer",
-                  "&:hover": {
-                    background: "#1f8ad2",
-                  },
-                }}
-              >
-                <VscFeedback fontSize="0.9rem" />
-              </Box>
-              <Box
-                display="flex"
-                sx={{
-                  width: "50%",
-                  justifyContent: "center",
-                  alignItems: "center",
-                  py: 0.3,
-                  px: 0.5,
-                  cursor: "pointer",
-                  "&:hover": {
-                    background: "#1f8ad2",
-                  },
-                }}
-              >
-                <VscBell fontSize="0.9rem" />
-              </Box>
-            </Stack>
-          </Box>
-        </Grid>
-      </Grid>
+      <Box display="flex">
+        <Box sx={item}>
+          <VscCheckAll /> Prettier
+        </Box>
+        <Box sx={item}>
+          <VscFeedback />
+        </Box>
+        <Box sx={item}>
+          <VscBell />
+        </Box>
+      </Box>
     </Box>
   );
 }

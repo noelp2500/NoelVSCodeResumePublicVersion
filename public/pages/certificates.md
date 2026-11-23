@@ -1,5 +1,7 @@
 # 🥇 Certificates
 
+- [Build an Interpreter from scratch (JavaScript)](https://www.udemy.com/certificate/UC-fd426585-38d1-4992-9ec9-2d5a6099b050/)`Udemy`
+
 - [Cybersecurity: Mapping MITRE ATT&CK to CVE for Impact](https://www.credly.com/earner/earned/badge/d0a0dee5-9908-42c1-95ce-f5050b7ba5c4)`AttackIQ`
 
 - [Fundamentals of Reinforcement Learning](https://coursera.org/share/3ea0065465f3e9a9aa4898c9b9bfb18a)`University of Alberta`

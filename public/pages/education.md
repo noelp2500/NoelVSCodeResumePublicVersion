@@ -1,6 +1,6 @@
 # 👨‍🎓 Education
 
-`Aug 2023 - Present` [University of California, Merced](https://www.ucmerced.edu/?_gl=1*1pxd0sm*_ga*NzkzNTgyMzAwLjE2ODc5NTU0MTY.*_ga_TSE2LSBDQZ*MTY5NTI3MzE4Mi41MS4wLjE2OTUyNzMxODIuNjAuMC4w)
+`Aug 2023 - May 2025` [University of California, Merced](https://www.ucmerced.edu/?_gl=1*1pxd0sm*_ga*NzkzNTgyMzAwLjE2ODc5NTU0MTY.*_ga_TSE2LSBDQZ*MTY5NTI3MzE4Mi41MS4wLjE2OTUyNzMxODIuNjAuMC4w)
 
 - **Masters** in Computer Software Engineering.
 - Relevant Courses:

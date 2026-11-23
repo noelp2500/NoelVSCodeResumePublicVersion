@@ -31,7 +31,7 @@ export const links = [
   {
     index: 3,
     title: "Contact me via my private mail",
-    href: "mailto:noelpereira2500@gmail.com",
+    href: "mailto:pereiranoel2500@gmail.com",
     icon: <FaRegEnvelopeOpen />,
   },
   {

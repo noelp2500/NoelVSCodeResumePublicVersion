@@ -1,12 +1,16 @@
 # 👨‍💻 Work Experience
 
-## `Sept 2024 - Dec 2024` **MLOps Cybersecurity Fall Intern** @ Siemens
+## `July 2025 - Present` **Software Engineer 2** @ Esri
 
-• Mentor- Dr.Anton Kocheturov
-• Implemented a SOTA Discrete action space based bayesian optimised agent for cage4 challenge in a single and multiagent environment
-• Developed a heirarchial discrete space bayesian optimised agent for cage2 challenge with a decision tree based action picker
+• Doc AI Assistant Team (Part of AI Frameworks - ArcGIS Online) - Esri R&D Product Division
+• Architected and optimized a multi-product agentic RAG platform serving 1.2 million documents, reducing retrieval latency by 25–40% via optimized indexing and probabilistic pipeline orchestration.
+• Redesigned RAG strategy and golden-set testing infrastructure, increasing Esri documentation concept coverage from 59% to 74% (+18%), outperforming GPT5.2 by 20%, while reducing testing evaluation runtime by 78% (2.5 hours to 33 minutes).
+• Incorporated an tunable and configurable multi-persona orchestration framework via REST API adopted by 8+ internal teams (Marketing, Docs, Training, Solutions, Apps, Developer etc) to lead user journey from initial interaction to product purchase, across 100+ products.
+• Designed a low latency and low cost cluster embedding platform allowing user intent analysis through dimensionality reduction for downstream documentation and product enhancements.
 
-## `May 2024 - Aug 2024` **MLOps Cybersecurity Summer Intern** @ Siemens
+&nbsp;
+
+## `May 2024 - May 2025` **Machine Learning Ops - Cybersecurity** @ Siemens
 
 • Mentor- Dr.Anton Kocheturov
 • Implemented and deployed a suite of APIs (Uvicorn) for RL agents, IT/OT networks, and custom environments developed by Siemens and other 3rd parties.
@@ -14,6 +18,8 @@
 • Developed a custom workflow atop a React JS based visualization tool for real-time, step-by-step visualization of Cyborg Red Agents on the Cage2 challenge network topology, including API calls for agent actions, network node status updates, and UI element adjustments.
 • Assisted in preparing monthly technical progress reports for submission to the Defense Advanced Research Projects Agency (DARPA), detailing my project contributions, and participated in DARPA site visits.
 • Implemented and deployed couple of Multi Agent Reinforcement Learning (MARL) agents on Cage4 challenge for baseline evaluation of optimisation techniques
+• Implemented a SOTA Discrete action space based bayesian optimised agent for cage4 challenge in a single and multiagent environment
+• Developed a heirarchial discrete space bayesian optimised agent for cage2 challenge with a decision tree based action picker
 
 &nbsp;
 
